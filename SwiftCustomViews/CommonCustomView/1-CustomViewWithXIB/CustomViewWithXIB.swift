@@ -27,7 +27,7 @@ class CustomViewWithXIB: UIView {
         didSet { theTitleLabel.text = insTitle }
     }
     
-    @IBInspectable var insSwitchON: Bool = true{
+    @IBInspectable var insSwitchON: Bool = true {
         didSet{ theSwitch.isOn = insSwitchON }
     }
     

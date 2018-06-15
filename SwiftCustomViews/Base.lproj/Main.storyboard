@@ -170,33 +170,12 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnX-R5-AYo" customClass="RoundButton" customModule="SwiftCustomViews" customModuleProvider="target">
-                                <rect key="frame" x="20" y="547" width="100" height="100"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="7kt-Ul-BYt"/>
-                                    <constraint firstAttribute="width" constant="100" id="fr7-rV-Gg9"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.99607843139999996" green="0.27058823529999998" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                        <real key="value" value="5"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="3lF-Kp-PYv" firstAttribute="centerX" secondItem="qCO-Ps-rcY" secondAttribute="centerX" id="Fqb-2Q-FRD"/>
                             <constraint firstItem="iYa-LY-zJV" firstAttribute="centerX" secondItem="qCO-Ps-rcY" secondAttribute="centerX" id="ahn-nN-jl9"/>
-                            <constraint firstItem="VnX-R5-AYo" firstAttribute="leading" secondItem="xmH-eV-H7R" secondAttribute="leading" constant="20" id="df9-Sq-38Z"/>
                             <constraint firstItem="fxd-vx-VNc" firstAttribute="centerX" secondItem="qCO-Ps-rcY" secondAttribute="centerX" id="doN-pl-ijc"/>
-                            <constraint firstItem="xmH-eV-H7R" firstAttribute="bottom" secondItem="VnX-R5-AYo" secondAttribute="bottom" constant="20" id="oIq-Sa-68J"/>
                             <constraint firstItem="3lF-Kp-PYv" firstAttribute="top" secondItem="iYa-LY-zJV" secondAttribute="bottom" constant="20" id="uAX-vn-Lhz"/>
                             <constraint firstItem="xmH-eV-H7R" firstAttribute="bottom" secondItem="fxd-vx-VNc" secondAttribute="bottom" constant="20" id="we0-F4-8LB"/>
                             <constraint firstItem="iYa-LY-zJV" firstAttribute="top" secondItem="xmH-eV-H7R" secondAttribute="top" constant="20" id="wvC-bJ-bmn"/>
