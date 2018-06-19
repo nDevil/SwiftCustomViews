@@ -22,5 +22,9 @@ class RoundButton: UIButton {
     @IBInspectable var borderColor: UIColor = .clear {
         didSet { self.layer.borderColor = borderColor.cgColor }
     }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
 
 }
