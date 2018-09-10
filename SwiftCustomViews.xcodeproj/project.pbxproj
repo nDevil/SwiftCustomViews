@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57397E462132F212002A07D8 /* CustomViewXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57397E452132F212002A07D8 /* CustomViewXib.swift */; };
+		57397E482132F21E002A07D8 /* CustomViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57397E472132F21E002A07D8 /* CustomViewXib.xib */; };
 		5746C4F720D3BAB800DAA99F /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746C4F620D3BAB800DAA99F /* RoundButton.swift */; };
 		57D0240920D3A6D600DCAE69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0240820D3A6D600DCAE69 /* AppDelegate.swift */; };
-		57D0240B20D3A6D600DCAE69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0240A20D3A6D600DCAE69 /* ViewController.swift */; };
 		57D0240E20D3A6D600DCAE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0240C20D3A6D600DCAE69 /* Main.storyboard */; };
 		57D0241020D3A6D700DCAE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D0240F20D3A6D700DCAE69 /* Assets.xcassets */; };
 		57D0241320D3A6D700DCAE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D0241120D3A6D700DCAE69 /* LaunchScreen.storyboard */; };
@@ -20,10 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57397E452132F212002A07D8 /* CustomViewXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewXib.swift; sourceTree = "<group>"; };
+		57397E472132F21E002A07D8 /* CustomViewXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewXib.xib; sourceTree = "<group>"; };
 		5746C4F620D3BAB800DAA99F /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		57D0240520D3A6D600DCAE69 /* SwiftCustomViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCustomViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D0240820D3A6D600DCAE69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		57D0240A20D3A6D600DCAE69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57D0240D20D3A6D600DCAE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57D0240F20D3A6D700DCAE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57D0241220D3A6D700DCAE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +55,16 @@
 			path = RoundButton;
 			sourceTree = "<group>";
 		};
+		5746C4FE20D94D1900DAA99F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D0240820D3A6D600DCAE69 /* AppDelegate.swift */,
+				57D0240F20D3A6D700DCAE69 /* Assets.xcassets */,
+				57D0241120D3A6D700DCAE69 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		57D023FC20D3A6D600DCAE69 = {
 			isa = PBXGroup;
 			children = (
@@ -73,11 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				57D0242220D3B23100DCAE69 /* CommonCustomView */,
-				57D0240820D3A6D600DCAE69 /* AppDelegate.swift */,
-				57D0240A20D3A6D600DCAE69 /* ViewController.swift */,
+				5746C4FE20D94D1900DAA99F /* Supporting Files */,
 				57D0240C20D3A6D600DCAE69 /* Main.storyboard */,
-				57D0240F20D3A6D700DCAE69 /* Assets.xcassets */,
-				57D0241120D3A6D700DCAE69 /* LaunchScreen.storyboard */,
 				57D0241420D3A6D700DCAE69 /* Info.plist */,
 			);
 			path = SwiftCustomViews;
@@ -96,6 +105,8 @@
 			children = (
 				57D0241C20D3AD0800DCAE69 /* CustomViewWithXIB.swift */,
 				57D0242320D3B25D00DCAE69 /* CustomViewWithXIB.xib */,
+				57397E452132F212002A07D8 /* CustomViewXib.swift */,
+				57397E472132F21E002A07D8 /* CustomViewXib.xib */,
 			);
 			path = "1-CustomViewWithXIB";
 			sourceTree = "<group>";
@@ -173,6 +184,7 @@
 				57D0241020D3A6D700DCAE69 /* Assets.xcassets in Resources */,
 				57D0240E20D3A6D600DCAE69 /* Main.storyboard in Resources */,
 				57D0242420D3B25D00DCAE69 /* CustomViewWithXIB.xib in Resources */,
+				57397E482132F21E002A07D8 /* CustomViewXib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,10 +196,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5746C4F720D3BAB800DAA99F /* RoundButton.swift in Sources */,
+				57397E462132F212002A07D8 /* CustomViewXib.swift in Sources */,
 				57D0241D20D3AD0800DCAE69 /* CustomViewWithXIB.swift in Sources */,
 				57D0242120D3B22400DCAE69 /* CommonCustomViewController.swift in Sources */,
 				57D0241F20D3AD1200DCAE69 /* CustomView.swift in Sources */,
-				57D0240B20D3A6D600DCAE69 /* ViewController.swift in Sources */,
 				57D0240920D3A6D600DCAE69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

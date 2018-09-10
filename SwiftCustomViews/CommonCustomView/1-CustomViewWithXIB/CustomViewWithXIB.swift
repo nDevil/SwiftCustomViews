@@ -38,18 +38,9 @@ class CustomViewWithXIB: UIView {
     
     @IBInspectable var insBackgroundColor: UIColor = UIColor.clear {
         didSet { self.backgroundColor = insBackgroundColor}
-
-//        didSet { self.layer.backgroundColor = insBackgroundColor.cgColor}
     }
 
-    
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         initialization()
@@ -60,7 +51,15 @@ class CustomViewWithXIB: UIView {
         initialization()
     }
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        
+    }
+    
+    // MARK: mark
     func initialization() {
+        // FIXME: 警告
         // 不要用这个方式，IBDesignable 会出现error
         // let theView = Bundle.main.loadNibNamed("CustomViewWithXIB", owner: self, options: nil)?.first as! UIView
         
